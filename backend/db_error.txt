@@ -1,0 +1,12 @@
+Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at D:\Hospital project\backend\routes\healthRoutes.js:14:39
+    at Layer.handleRequest (D:\Hospital project\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Hospital project\backend\node_modules\router\lib\route.js:157:13)
+    at D:\Hospital project\backend\controllers\authController.js:86:9
+    at D:\Hospital project\backend\node_modules\jsonwebtoken\verify.js:261:12
+    at getSecret (D:\Hospital project\backend\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\Hospital project\backend\node_modules\jsonwebtoken\verify.js:101:10)
+    at exports.verifyToken (D:\Hospital project\backend\controllers\authController.js:80:9)
+    at Layer.handleRequest (D:\Hospital project\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\Hospital project\backend\node_modules\router\lib\route.js:157:13)
